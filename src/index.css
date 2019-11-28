@@ -1,0 +1,38 @@
+
+@font-face {
+  font-family: 'AirbnbCerealApp-Medium';
+  src: local('Cereal-Medium'), url(./fonts/Cereal-Medium.woff) format('woff');
+  src: local('Cereal-Medium'), url(./fonts/Cereal-Medium.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'AirbnbCerealApp-Light';
+  src: local('Cereal-Light'), url(./fonts/Cereal-Light.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'AirbnbCerealApp-Book';
+  src: local('Cereal-Book'), url(./fonts/Cereal-Book.woff) format('woff');
+
+}
+
+@font-face {
+  font-family: 'AirbnbCerealApp-Bold';
+  src: local('Cereal-Bold'), url(./fonts/Cereal-Bold.woff) format('woff');
+
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "AirbnbCereal", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
