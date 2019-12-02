@@ -135,8 +135,9 @@ getContractIds = () => {
   
 
   // now we should have the contractIds
-
+  this.getContractPrices();
   return console.log('INSIDE getContractIds() / do we have contractIds? this.state.contractIds', this.state.contractIds);
+  
   
 
   
@@ -272,8 +273,8 @@ render() {
 
 <div className="parent" >
              <div className="one" >
-             <button onClick={this.getContractIds} > Get ContractIds </button>
-             <button onClick={this.getContractPrices} >Grab Contract Prices</button>
+             <button onClick={this.getContractIds} > Refresh Prices </button>
+            
              
 
              
