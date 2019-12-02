@@ -1,26 +1,3 @@
-/* 
-
-
-<LiveMarkets
-            contractName="2020 Iowa Dem caucus winner"
-             />
-            <LiveMarkets 
-            contractName="2020 NH Dem primary winner"
-            />
-            <LiveMarkets 
-            contractName="2020 Democratic VP nominee"
-            />
-            <LiveMarkets 
-            contractName="Which of these Dems drops out next"
-            />
-          
-
-              
-
-
-
-
-*/
 
 
 import React from 'react';
@@ -174,7 +151,139 @@ render() {
              }    
    
 
+             { this.props.eventDatas.thirdMarket ?
 
+          <LiveMarkets
+
+          mId1Title={this.props.eventDatas.thirdMarket}
+          // key={index} 
+          // theToggle={!toggle}
+          marketId={this.props.eventDatas.thirdMarket}
+          marketIndex={this.props.eventDatas.thirdMarketIndex}
+          contractName={this.props.eventDatas.thirdMarketName}
+
+
+          />
+          : null
+             }    
+
+
+
+        { this.props.eventDatas.fourthMarket ?
+
+          <LiveMarkets
+
+          mId1Title={this.props.eventDatas.fourthMarket}
+          // key={index} 
+          // theToggle={!toggle}
+          marketId={this.props.eventDatas.fourthMarket}
+          marketIndex={this.props.eventDatas.fourthMarketIndex}
+          contractName={this.props.eventDatas.fourthMarketName}
+
+
+          />
+          : null
+             }    
+
+
+        { this.props.eventDatas.fifthMarket ?
+
+          <LiveMarkets
+
+          mId1Title={this.props.eventDatas.fifthMarket}
+          // key={index} 
+          // theToggle={!toggle}
+          marketId={this.props.eventDatas.fifthMarket}
+          marketIndex={this.props.eventDatas.fifthMarketIndex}
+          contractName={this.props.eventDatas.fifthMarketName}
+
+
+          />
+          : null
+             }   
+
+
+        { this.props.eventDatas.sixthMarket ?
+
+          <LiveMarkets
+
+          mId1Title={this.props.eventDatas.sixthMarket}
+          // key={index} 
+          // theToggle={!toggle}
+          marketId={this.props.eventDatas.sixthMarket}
+          marketIndex={this.props.eventDatas.sixthMarketIndex}
+          contractName={this.props.eventDatas.sixthMarketName}
+
+
+          />
+          : null
+             }     
+
+
+        { this.props.eventDatas.seventhMarket ?
+
+          <LiveMarkets
+
+          mId1Title={this.props.eventDatas.seventhMarket}
+          // key={index} 
+          // theToggle={!toggle}
+          marketId={this.props.eventDatas.seventhMarket}
+          marketIndex={this.props.eventDatas.seventhMarketIndex}
+          contractName={this.props.eventDatas.seventhMarketName}
+
+
+          />
+          : null
+             }    
+
+
+        { this.props.eventDatas.eigthMarket ?
+
+          <LiveMarkets
+
+          mId1Title={this.props.eventDatas.eigthMarket}
+          // key={index} 
+          // theToggle={!toggle}
+          marketId={this.props.eventDatas.eigthMarket}
+          marketIndex={this.props.eventDatas.eigthMarketIndex}
+          contractName={this.props.eventDatas.eigthMarketName}
+
+
+          />
+          : null
+             }    
+
+             { this.props.eventDatas.ninthMarket ?
+
+          <LiveMarkets
+
+          mId1Title={this.props.eventDatas.ninthMarket}
+          // key={index} 
+          // theToggle={!toggle}
+          marketId={this.props.eventDatas.ninthMarket}
+          marketIndex={this.props.eventDatas.ninthMarketIndex}
+          contractName={this.props.eventDatas.ninthMarketName}
+
+
+          />
+          : null
+             }    
+
+            { this.props.eventDatas.tenthMarket ?
+
+          <LiveMarkets
+
+          mId1Title={this.props.eventDatas.tenthMarket}
+          // key={index} 
+          // theToggle={!toggle}
+          marketId={this.props.eventDatas.tenthMarket}
+          marketIndex={this.props.eventDatas.tenthMarketIndex}
+          contractName={this.props.eventDatas.tenthMarketName}
+
+
+          />
+          : null
+             }    
         
             
             
