@@ -1,0 +1,28 @@
+
+.LiveMarketBox {
+    width: 100%;
+    background-color:#fff;
+    
+}
+
+.slide-toggle__box {
+    background-color:#fff;
+}
+
+.LiveMarketBoxActive{
+    width: 100%;;
+    background-color:#ffffe6;
+}
+
+.LiveMarkets {
+    width: 100%;
+    margin-top: 1px;
+    font-family: AirbnbCerealApp-Medium;
+    font-weight: 400;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    z-index: 2000;
+    color: #326891;
+    border-bottom: solid 0.5px #e8eaec;
+}
