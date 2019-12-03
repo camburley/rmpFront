@@ -56,14 +56,14 @@ class App extends React.Component {
 render() {
 
 
- 
+
 
   const eventDatas = [
     { 
 
       Date: "Dec. 2",
       Headlines: [
-        "House Impeachment Report Delivered 🗞 \n\n",
+        "House Impeachment Report Delivered 🗞 \n\n",
         "U.S. President Donald Trump leaves for NATO summit in London 🇬🇧  \n\n",
         "The U.S. Supreme Court will hear its first major gun rights case in nearly a decade 🏛 "
      ],
@@ -98,9 +98,9 @@ render() {
       tenthMarket: '3633',
       tenthMarketIndex: 19,
       tenthMarketName: "Who will win the 2020 Democratic Presidential Nomination",
-      
-     
-  
+
+
+
     },
   { 
 
@@ -108,12 +108,12 @@ render() {
     Headlines: [
       "House Intelligence Committee to vote on Impeachment Report 🗳 \n\n",
    ],
-   
+
     SubtitleText: "These events are likely to include live tweeting from @realDonaldTrump",
-    
-    
-   
-    
+
+
+
+
 
 
   },
@@ -122,11 +122,11 @@ render() {
     Date: "Dec. 4",
     Headlines: [
       "House Judiciary Committee to hold first impeachment hearing 📺 \n\n",
-      
+
    ],
     SubtitleText: "These events are likely to include live tweeting from @realDonaldTrump",
-    
-    
+
+
 
   },
   { 
@@ -136,7 +136,7 @@ render() {
       "Trudeau to convene new Parliament 📣",
    ],
     SubtitleText: "These events are likely to include live tweeting from @realDonaldTrump",
-   
+
 
   },
   { 
@@ -146,11 +146,11 @@ render() {
       "Sixth & Final Democratic Primary Debate of 2019 📺 \n\n",
    ],
     SubtitleText: "These events are likely to include live tweeting from @realDonaldTrump ",
-    
-    
+
+
 
   },
-    
+
   ];
 
 
@@ -173,8 +173,8 @@ render() {
       />
 
       <Calendar
-  
-      
+
+
       />
 
       <SectionHeadline
@@ -188,25 +188,25 @@ render() {
       />
 
       { 
-      
+
         eventDatas.map((eventData, index) => {
-    
+
             console.log('this the index', index)
             return <EventObj
             key={index} 
             eventDatas={eventData}
             toggle={() => this.toggleFunction()}
-           
-           
-            
-            
-                     
+
+
+
+
+
             />
             })           
       } 
 
-     
-     
+
+
 
     </div>
   );

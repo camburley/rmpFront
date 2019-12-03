@@ -1,0 +1,134 @@
+.LiveContracts {
+    width: 100%;
+    margin-top: 2%;
+    margin-left: 5%;
+    background-color: #fff;
+    display: inline-block;
+
+}
+
+.labelBox {
+    align-items: right;
+    text-align: right;
+    width: 100%;
+    margin: 0;
+    
+}
+
+.avatar {
+    float: left;
+    margin-bottom: 7px;
+    width: 40px;
+    height: 40px;
+    border-radius: 80;
+   
+  
+}
+
+.namedRow {
+    margin-top: 0;
+    display: inline-table;
+    width: 20%;
+}
+
+.contract_name {
+   float: left;
+    margin-left: 15px;
+    margin-top: 0px;
+    font-family: AirbnbCerealApp-Medium;
+    font-weight: 400;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 14px;
+
+
+}
+
+
+.contract_label {
+    float: left;
+    width: 100%;
+    margin-left: 95%;
+    margin-top: 5px;
+    font-family: AirbnbCerealApp-Medium;
+    font-weight: 400;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    text-align: right;
+
+}
+
+.contract_price {
+    float: left;
+    margin-left: 99%;
+    margin-top: 5px;
+    font-family: AirbnbCerealApp-Medium;
+    font-weight: 400;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 14px;
+ 
+    clear: both;
+  
+}
+
+.change_amount {
+    float: left;
+    margin-left: 40%;
+    margin-top: 5px;
+    font-family: AirbnbCerealApp-Medium;
+    font-weight: 400;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 14px;
+ 
+    
+}
+
+.change_amount_positive {
+    float: left;
+    margin-left: 40%;
+    margin-top: 5px;
+    font-family: AirbnbCerealApp-Medium;
+    font-weight: 400;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 14px;
+    background-color: #eeffe6;
+   
+    
+}
+
+.change_amount_negative {
+    float: left;
+    margin-left: 40%;
+    margin-top: 5px;
+    font-family: AirbnbCerealApp-Medium;
+    font-weight: 400;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 14px;
+    background-color: #ffede6;
+  
+    
+}
+
+.tableClass {
+
+    width: 100%;
+}
+
+.tableWidth {
+    width: 100%;
+}
