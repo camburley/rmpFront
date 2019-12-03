@@ -64,7 +64,7 @@ class LiveMarkets extends React.Component {
 
   componentDidMount() {
   
-    let marketIds = ['5913', '4319', '3537', '5158', '5925', '6077', '4703', '4930', '3698', '3633']
+    let marketIds = ['3633', '3653']
     console.log('this.state.marketIds', this.state.marketIds)
 
     let themContracts = [];
@@ -129,13 +129,11 @@ getContractIds = () => {
       //console.log('row IN CONTRACT IDS', row.contract_id)
       this.state.contractIds.push(row.contract_id)
       
-      
       return;
-
 
   })
   
-this.getContractPrices();
+
   // now we should have the contractIds
 
   return console.log('INSIDE getContractIds() / do we have contractIds? this.state.contractIds', this.state.contractIds);
@@ -192,11 +190,10 @@ getContractPrices = (ids) => {
 }
 
 async makeSingleObj() {
-    console.log('this.state.allContracts in makeSingleObj()', this.state.allContracts)
     console.log('this.state.allContracts[this.props.marketIndex]', this.state.allContracts[this.props.marketIndex])
     console.log('this.state.contractsAndValues', this.state.contractsAndValues)
     const allContracts = await this.state.allContracts[this.props.marketIndex]
-    const allValues = this.state.contractsAndValues
+    const allValues = await  this.state.contractsAndValues
 
     
     const realTimeData = [];
@@ -251,7 +248,6 @@ async makeSingleObj() {
  oneMoretest = () => {
      console.log('does this wait?')
      return (<div> <LiveContracts /> something here</div>)
-
  }
 
 
@@ -276,8 +272,8 @@ render() {
 
 <div className="parent" >
              <div className="one" >
-             
-            
+             <button onClick={this.getContractIds} > Get ContractIds </button>
+             <button onClick={this.getContractPrices} >Grab Contract Prices</button>
              
 
              
@@ -292,9 +288,9 @@ render() {
     }) => (
 
         <div className={ toggle ? 'LiveMarketBox' : 'LiveMarketBoxActive'}  > 
-      
-        <div className="LiveMarkets"  onClick={toggle} onChange={this.getContractIds}>
-        <button onClick={this.getContractIds} > Refresh Prices </button> {this.props.contractName} 
+       
+        <div className="LiveMarkets"  onClick={toggle} >
+        {this.props.contractName} 
         
     
           </div>
