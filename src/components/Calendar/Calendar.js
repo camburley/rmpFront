@@ -30,41 +30,45 @@ render() {
     const dayDatas = [
         { 
 
-        Date: "18",
-        eventRowText: "Jennifer Willaims, Lt. Col. Alexander Vindman, Kurt Volker, Impeachment Hearing 📺 ",
+        Date: "2",
+        eventRowText: [
+          "House Impeachment Report Delivered 🗞 \n\n",
+          "Donald Trump at NATO summit in London 🇬🇧  \n\n",
+        
+       ],
         Day: "MONDAY",
         id: 1,
 
       },
         { 
         
-        Date: "19",
-        eventRowText: "Jennifer Willaims, Lt. Col. Alexander Vindman, Kurt Volker, Impeachment Hearing 📺 ",
+        Date: "3",
+        eventRowText: "House Intelligence Committee to vote on Impeachment Report 🗳 \n\n",
         Day: "TUESDAY",
         id: 2,
 
       },
         { 
             
-        Date: "20",
-        eventRowText: "Fifth Dem Debate 📺, Union Leader Endorsement 🗞 ",
+        Date: "4",
+        eventRowText: "House Judiciary Committee to hold first impeachment hearing 📺 \n\n",
         Day: "WEDNESDAY",
         id: 3,
 
       },
         { 
         
-        Date: "21",
-        eventRowText: "Fiona Hill Impeachment Hearing 📺",
+        Date: "5",
+        eventRowText: "Trudeau to convene new Parliament 📣",
         Day: "THURSDAY",
         id: 4,
 
       },
         { 
         
-        Date: "22",
-        eventRowText: "Illinois Filing Deadline 🗳",
-        Day: "FRIDAY",
+        Date: "19",
+        eventRowText: "Sixth & Final Democratic Primary Debate of 2019 📺 \n\n",
+        Day: "THURSDAY",
         id: 5,
 
       }

@@ -61,86 +61,93 @@ render() {
   const eventDatas = [
     { 
 
-      Date: "Nov. 18",
+      Date: "Dec. 2",
       Headlines: [
-        "Fifth Democratic primary debate 🏛 \n\n",
-        "Gordon Sondland, Laura Cooper, David Hale Impeachment Hearing 📺 \n\n",
-        "Maryland Special Election Filing Deadline 🗳 "
+        "House Impeachment Report Delivered 🗞 \n\n",
+        "U.S. President Donald Trump leaves for NATO summit in London 🇬🇧  \n\n",
+        "The U.S. Supreme Court will hear its first major gun rights case in nearly a decade 🏛 "
      ],
       SubtitleText: "These events are likely to include live tweeting from @realDonaldTrump",
-      firstMarket: '3633',
-      firstMarketIndex: 2,
-      firstMarketName: "Who will win the 2020 Democratic presidential nomination",
-      secondMarket: '3653',
-      secondMarketIndex: 3,
-      markets: ['3633', '3653'],
-
-      secondMarketName: "Republican will win 2020 nomination",
-  
+      firstMarket: '5913',
+      firstMarketIndex: 10,
+      firstMarketName: "How many articles of impeachment by 3/31",
+      secondMarket: '4319',
+      secondMarketIndex: 11,
+      secondMarketName: "Will Donald Trump be impeached by year's end 2019",
+      thirdMarket: '3537',
+      thirdMarketIndex: 12,
+      thirdMarketName: "Will Donlad Trump be impeached in his first term",
+      fourthMarket: '5158',
+      fourthMarketIndex: 13,
+      fourthMarketName: "Will Donald Trump complete his first term",
+      fifthMarket: '5925',
+      fifthMarketIndex: 14,
+      fifthMarketName: "Will a federal charge against Rudy Giuliani be confirmed by Dec 2020",
+      sixthMarket: '6077',
+      sixthMarketIndex: 15,
+      sixthMarketName: "Whom will UK Parliament chose as next Prime Minister",
+      seventhMarket: '4703',
+      seventhMarketIndex: 16,
+      seventhMarketName: "Who will be the next justice to leave the Supreme Court",
+      eigthMarket: '4930',
+      eigthMarketIndex: 17,
+      eigthMarketName: "Who will be Trump's next Supreme Court nominee",
+      ninthMarket: '3698',
+      ninthMarketIndex: 18,
+      ninthMarketName: "Who will win the 2020 Presidential Election",
+      tenthMarket: '3633',
+      tenthMarketIndex: 19,
+      tenthMarketName: "Who will win the 2020 Democratic Presidential Nomination",
+      
+     
   
     },
   { 
 
-    Date: "Nov. 19",
+    Date: "Dec. 3",
     Headlines: [
-      "Jennifer Willaims, Lt. Col. Alexander Vindman, Kurt Volker, Impeachment Hearing 📺 \n\n",
+      "House Intelligence Committee to vote on Impeachment Report 🗳 \n\n",
+   ],
+   
+    SubtitleText: "These events are likely to include live tweeting from @realDonaldTrump",
+    
+    
+   
+    
+
+
+  },
+  { 
+
+    Date: "Dec. 4",
+    Headlines: [
+      "House Judiciary Committee to hold first impeachment hearing 📺 \n\n",
+      
    ],
     SubtitleText: "These events are likely to include live tweeting from @realDonaldTrump",
-
+    
+    
 
   },
   { 
 
-    Date: "Nov. 20",
+    Date: "Dec. 5",
     Headlines: [
-      "Fifth Democratic primary debate 🏛 \n\n",
-      "Gordon Sondland, Laura Cooper, David Hale Impeachment Hearing 📺 \n\n",
-      "Maryland Special Election Filing Deadline 🗳 "
+      "Trudeau to convene new Parliament 📣",
    ],
     SubtitleText: "These events are likely to include live tweeting from @realDonaldTrump",
-
-
-  },
-  { 
-
-    Date: "Nov. 21",
-    Headlines: [
-      "Fiona Hill Impeachment Hearing 📺",
-   ],
-    SubtitleText: "These events are likely to include live tweeting from @realDonaldTrump",
-
-
-  },
-  { 
-
-    Date: "Dec. 2",
-    Headlines: [
-      "Illinois Filing Deadline 🗳 \n\n",
-      "North Carolina Filing Deadline 🗳 \n\n",
-      "Wisconsin Filing Deadline 🗳 "
-   ],
-    SubtitleText: "These include major party CD-7 ",
-
-
-  },
-  { 
-
-    Date: "Dec. 9",
-    Headlines: [
-      "Texas Filing Deadline 🗳 \n\n",
-   ],
-    SubtitleText: "These include major party CD-7 ",
-
+   
 
   },
   { 
 
     Date: "Dec. 19",
     Headlines: [
-      "Sixth & Final Democratic Primary Debate of 2019 🏛 \n\n",
+      "Sixth & Final Democratic Primary Debate of 2019 📺 \n\n",
    ],
     SubtitleText: "These events are likely to include live tweeting from @realDonaldTrump ",
-
+    
+    
 
   },
     
@@ -154,9 +161,9 @@ render() {
       SubtitleText="PredictIt Live Markets"
       />
       <UpcomingHighlights
-      untilDebate="5 Days"
-      untilText="until November debate"
-      untilElection="354 Days"
+      untilDebate="17 Days"
+      untilText="until December debate"
+      untilElection="339 Days"
       untilElectionText="until election day"
       />
 
